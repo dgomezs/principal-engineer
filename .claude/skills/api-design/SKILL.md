@@ -40,7 +40,7 @@ Identify from `$ARGUMENTS`:
 - **Operations** — what actions consumers need to perform
 - **Consumers** — who calls this API and what do they need
 
-Read existing specs in the repo (search `packages/api-clients/` and `apps/backend/`) to understand conventions already in use. Read related domain docs in `docs/domain/` for correct terminology.
+Read existing specs in the repo (search `.ai/specs/`) to understand conventions already in use. Read related domain docs in `docs/domain/` for correct terminology.
 
 If requirements are thin, ask — one batch of questions.
 
@@ -78,7 +78,7 @@ Read the relevant files from `references/` before writing:
 - `references/openapi-search.md` if search endpoints are involved
 - `references/contract-first.md` for contract-first conventions
 
-Save the spec to `packages/api-clients/<service-name>/` or the path the user specifies.
+Save the spec to `.ai/specs/[ticket-id]/` alongside any tech design doc for the same feature, or `.ai/specs/[descriptive-slug]/` if no ticket id is available. Use the path the user specifies if one is given.
 
 ### STEP 5: Review the Spec
 
