@@ -60,4 +60,4 @@ Or invoke skills directly:
 | Diagrams | `.ai/specs/<slug>/diagrams/NN-description.md` |
 | ADRs | `docs/adrs/NNNN-title.md` |
 | Threat models | `.ai/specs/<slug>/threat-model.md` |
-| API specs | `packages/api-clients/<service-name>/` |
+| API specs | `.ai/specs/<slug>/` |
